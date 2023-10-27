@@ -11,8 +11,16 @@ inc.addEventListener("click",()=>{
 })
 
 dec.addEventListener("click",()=>{
-  let result = number--;
-   num.innerHTML = result
+    
+  let result = number;
+
+  if(result >0){
+     number--;
+  }
+
+  num.innerHTML = result
+ 
+  
 })
 
 
